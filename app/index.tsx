@@ -1,5 +1,10 @@
+import React from "react";
 import { Redirect } from "expo-router";
 
-export default function Index() {
-    return <Redirect href="/home" />;
-}
+const index = () => {
+  return (
+    <Redirect href="/calculator" />
+  );
+};
+
+export default index;
